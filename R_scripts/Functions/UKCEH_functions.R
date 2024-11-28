@@ -39,7 +39,8 @@ LC_to_AC <- function(hab_rast) {
   AC_hab_rast <- hab_rast %>%
     ifel(. %in% 5:8, 5, .) %>%
     ifel(. %in% 9:12, 6, .) %>%
-    ifel(. %in% 13:14, .-6, .) %>%
+    ifel(. == 13, 7, .) %>%
+    ifel(. == 14, 8, .) %>%
     ifel(. %in% 15:19, 9, .) %>%
     ifel(. %in% 20:21, 10, .) %>%
     ifel(. == 30, 11, .)

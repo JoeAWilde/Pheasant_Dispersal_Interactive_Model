@@ -102,7 +102,7 @@ def update_display():
     canvas.image = tk_image
 
 def save_raster():
-    save_path = filedialog.asksaveasfilename(defaultextension=".tif", filetypes=[("GeoTIFF files", "*.tif")])
+    save_path = "../Outputs/Rasters/cropped habitat raster.tif"
     if save_path:
         with rasterio.open(filepath) as src:
             profile = src.profile
@@ -129,7 +129,7 @@ raster_data = None
 selected_color = None
 img_shape = None
 raster_image = None
-filepath = r"..\Data\UKCEH-2018-25m_AllUK\example_hab.tif"
+filepath = r"..\Outputs\Rasters\cropped habitat raster.tif"
 
 # Brush size for drag painting
 brush_size = 5  # Adjust this value for a larger brush
