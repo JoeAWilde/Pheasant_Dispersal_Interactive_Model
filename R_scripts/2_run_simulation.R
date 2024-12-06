@@ -41,8 +41,7 @@ ta_pars <- list(
 # iSSF parameters ####
 
 ## load in iSSF coefficients ####
-ssf_model <- readRDS("../Data/Analyses_results/iSSF_pars.rds")
-ssf_betas <- ssf_model$model$coefficients
+ssf_betas <- readRDS("../Data/Analyses_results/iSSF_pars.rds")
 
 ## extract names of coefficients ####
 cov_names <- names(ssf_betas)

@@ -1,4 +1,4 @@
-
+*.pdf
 /.Rproj.user
 /coord_files/*
 .Rhistory
