@@ -1,6 +1,6 @@
 NOTE: This work is incomplete is to be used as a start-point for further work to make this less janky and more interactive. 
 
-# Pheasant_Dispersal_Simulation
+# Interactive version of pheasant dispersal model
 
 The first port of call is the "Coordinate_picker.bat" file. This will run the Python scripts (in "Py_scripts/") to open a window where the user can pick coordinates from a map and save them as "coord_files/release_coords.csv". These corrdinates can either be a release site or feeder points. However, there is not currently a way to set a release site, set feeders <b><i>to be exclusively used with that release</i></b> and then do the same for a new release site; all feeders will be used by all releases. </br>
 
