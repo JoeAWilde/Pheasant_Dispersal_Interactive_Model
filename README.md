@@ -1,4 +1,4 @@
-NOTE: This work is incomplete is to be used as a start-point for further work to make this less ajnky and more interactive. 
+NOTE: This work is incomplete is to be used as a start-point for further work to make this less janky and more interactive. 
 
 # Pheasant_Dispersal_Simulation
 
